@@ -46,10 +46,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(28, 243);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(56, 467);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 29);
+            this.button1.Size = new System.Drawing.Size(200, 56);
             this.button1.TabIndex = 0;
             this.button1.Text = "Cargar desde BD";
             this.button1.UseVisualStyleBackColor = true;
@@ -57,49 +57,49 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(663, 39);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Location = new System.Drawing.Point(1326, 75);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(222, 224);
+            this.textBox1.Size = new System.Drawing.Size(440, 427);
             this.textBox1.TabIndex = 1;
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(702, 284);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox1.Location = new System.Drawing.Point(1404, 546);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(154, 21);
+            this.comboBox1.Size = new System.Drawing.Size(304, 33);
             this.comboBox1.TabIndex = 2;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(699, 324);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(1398, 623);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(21, 13);
+            this.label1.Size = new System.Drawing.Size(38, 25);
             this.label1.TabIndex = 3;
             this.label1.Text = "ID:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(699, 359);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(1398, 690);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 13);
+            this.label2.Size = new System.Drawing.Size(148, 25);
             this.label2.TabIndex = 4;
             this.label2.Text = "NOTA MEDIA:";
             // 
             // buttonAñadirAlumno
             // 
-            this.buttonAñadirAlumno.Location = new System.Drawing.Point(263, 243);
-            this.buttonAñadirAlumno.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonAñadirAlumno.Location = new System.Drawing.Point(526, 467);
+            this.buttonAñadirAlumno.Margin = new System.Windows.Forms.Padding(4);
             this.buttonAñadirAlumno.Name = "buttonAñadirAlumno";
-            this.buttonAñadirAlumno.Size = new System.Drawing.Size(100, 29);
+            this.buttonAñadirAlumno.Size = new System.Drawing.Size(200, 56);
             this.buttonAñadirAlumno.TabIndex = 5;
             this.buttonAñadirAlumno.Text = "Añadir alumno";
             this.buttonAñadirAlumno.UseVisualStyleBackColor = true;
@@ -107,10 +107,10 @@
             // 
             // buttonEliminar
             // 
-            this.buttonEliminar.Location = new System.Drawing.Point(531, 243);
-            this.buttonEliminar.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonEliminar.Location = new System.Drawing.Point(1062, 467);
+            this.buttonEliminar.Margin = new System.Windows.Forms.Padding(4);
             this.buttonEliminar.Name = "buttonEliminar";
-            this.buttonEliminar.Size = new System.Drawing.Size(100, 29);
+            this.buttonEliminar.Size = new System.Drawing.Size(200, 56);
             this.buttonEliminar.TabIndex = 6;
             this.buttonEliminar.Text = "Eliminar alumno";
             this.buttonEliminar.UseVisualStyleBackColor = true;
@@ -121,32 +121,36 @@
             this.dataGridViewDatos.AllowUserToAddRows = false;
             this.dataGridViewDatos.AllowUserToDeleteRows = false;
             this.dataGridViewDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewDatos.Location = new System.Drawing.Point(28, 29);
+            this.dataGridViewDatos.Location = new System.Drawing.Point(56, 56);
+            this.dataGridViewDatos.Margin = new System.Windows.Forms.Padding(6);
             this.dataGridViewDatos.MultiSelect = false;
             this.dataGridViewDatos.Name = "dataGridViewDatos";
             this.dataGridViewDatos.ReadOnly = true;
             this.dataGridViewDatos.RowHeadersWidth = 82;
             this.dataGridViewDatos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewDatos.Size = new System.Drawing.Size(603, 209);
+            this.dataGridViewDatos.Size = new System.Drawing.Size(1206, 402);
             this.dataGridViewDatos.TabIndex = 7;
             this.dataGridViewDatos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewDatos_CellContentClick);
-            this.dataGridViewDatos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewDatos_CellDoubleClick);
+            this.dataGridViewDatos.SelectionChanged += new System.EventHandler(this.dataGridViewDatos_Click);
+            this.dataGridViewDatos.Click += new System.EventHandler(this.dataGridViewDatos_Click);
             // 
             // dataGridViewNotas
             // 
             this.dataGridViewNotas.AllowUserToAddRows = false;
             this.dataGridViewNotas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewNotas.Location = new System.Drawing.Point(28, 304);
+            this.dataGridViewNotas.Location = new System.Drawing.Point(56, 585);
+            this.dataGridViewNotas.Margin = new System.Windows.Forms.Padding(6);
             this.dataGridViewNotas.Name = "dataGridViewNotas";
             this.dataGridViewNotas.RowHeadersWidth = 82;
-            this.dataGridViewNotas.Size = new System.Drawing.Size(434, 150);
+            this.dataGridViewNotas.Size = new System.Drawing.Size(868, 288);
             this.dataGridViewNotas.TabIndex = 8;
             // 
             // btnAñadirNota
             // 
-            this.btnAñadirNota.Location = new System.Drawing.Point(477, 304);
+            this.btnAñadirNota.Location = new System.Drawing.Point(954, 585);
+            this.btnAñadirNota.Margin = new System.Windows.Forms.Padding(6);
             this.btnAñadirNota.Name = "btnAñadirNota";
-            this.btnAñadirNota.Size = new System.Drawing.Size(75, 23);
+            this.btnAñadirNota.Size = new System.Drawing.Size(150, 44);
             this.btnAñadirNota.TabIndex = 9;
             this.btnAñadirNota.Text = "Añadir";
             this.btnAñadirNota.UseVisualStyleBackColor = true;
@@ -154,9 +158,10 @@
             // 
             // btnModificarNota
             // 
-            this.btnModificarNota.Location = new System.Drawing.Point(477, 368);
+            this.btnModificarNota.Location = new System.Drawing.Point(954, 708);
+            this.btnModificarNota.Margin = new System.Windows.Forms.Padding(6);
             this.btnModificarNota.Name = "btnModificarNota";
-            this.btnModificarNota.Size = new System.Drawing.Size(75, 23);
+            this.btnModificarNota.Size = new System.Drawing.Size(150, 44);
             this.btnModificarNota.TabIndex = 10;
             this.btnModificarNota.Text = "Modificar";
             this.btnModificarNota.UseVisualStyleBackColor = true;
@@ -164,9 +169,10 @@
             // 
             // btnEliminarNota
             // 
-            this.btnEliminarNota.Location = new System.Drawing.Point(477, 431);
+            this.btnEliminarNota.Location = new System.Drawing.Point(954, 829);
+            this.btnEliminarNota.Margin = new System.Windows.Forms.Padding(6);
             this.btnEliminarNota.Name = "btnEliminarNota";
-            this.btnEliminarNota.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminarNota.Size = new System.Drawing.Size(150, 44);
             this.btnEliminarNota.TabIndex = 11;
             this.btnEliminarNota.Text = "Eliminar";
             this.btnEliminarNota.UseVisualStyleBackColor = true;
@@ -174,9 +180,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(895, 488);
+            this.ClientSize = new System.Drawing.Size(1790, 938);
             this.Controls.Add(this.btnEliminarNota);
             this.Controls.Add(this.btnModificarNota);
             this.Controls.Add(this.btnAñadirNota);
@@ -189,7 +195,7 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Alumnos";

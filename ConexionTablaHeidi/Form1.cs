@@ -128,22 +128,6 @@ namespace ConexionTablaHeidi
             }
         }
 
-        private void dataGridViewDatos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.RowIndex < 0) return;
-
-            int id = Convert.ToInt32(dataGridViewDatos.Rows[e.RowIndex].Cells["id"].Value);
-
-            Form2 f2 = new Form2();
-            f2.alumnoId = id;
-            f2.ShowDialog();
-
-            CargarTabla();
-            CargarAlumnos();
-            CargarNotasPorAlumno(id);
-            CalcularNotaMedia(id);
-        }
-
         private void buttonEliminar_Click(object sender, EventArgs e)
         {
             if (dataGridViewDatos.SelectedRows.Count == 0)
@@ -306,6 +290,18 @@ namespace ConexionTablaHeidi
                 else
                     label2.Text = "NOTA MEDIA: --";
             }
+        }
+
+        private void dataGridViewDatos_Click(object sender, EventArgs e)
+        {
+            if (dataGridViewDatos.CurrentRow == null) return;
+
+            int id = Convert.ToInt32(dataGridViewDatos.CurrentRow.Cells["id"].Value);
+
+            alumnoSeleccionadoId = id;
+
+            CargarNotasPorAlumno(id);
+            CalcularNotaMedia(id);
         }
     }
 }
